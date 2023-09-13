@@ -93,9 +93,9 @@
     },
     {
       "name": "flutter_lints",
-      "rootUri": "file:///home/sumit/.pub-cache/hosted/pub.dev/flutter_lints-2.0.3",
+      "rootUri": "file:///home/sumit/.pub-cache/git/flutter_lints-839a835b4577b79bee3803328154b54bda02d646/",
       "packageUri": "lib/",
-      "languageVersion": "2.19"
+      "languageVersion": "3.1"
     },
     {
       "name": "flutter_test",
@@ -377,10 +377,10 @@
       "name": "package_info_plus",
       "rootUri": "../",
       "packageUri": "lib/",
-      "languageVersion": "2.18"
+      "languageVersion": "3.1"
     }
   ],
-  "generated": "2023-09-08T10:17:23.219669Z",
+  "generated": "2023-09-13T06:48:42.257766Z",
   "generator": "pub",
-  "generatorVersion": "3.1.0"
+  "generatorVersion": "3.1.1"
 }
