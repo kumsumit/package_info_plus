@@ -57,7 +57,7 @@
     },
     {
       "name": "coverage",
-      "rootUri": "file:///home/sumit/.pub-cache/hosted/pub.dev/coverage-1.6.3",
+      "rootUri": "file:///home/sumit/.pub-cache/hosted/pub.dev/coverage-1.6.4",
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
@@ -93,7 +93,7 @@
     },
     {
       "name": "flutter_lints",
-      "rootUri": "file:///home/sumit/.pub-cache/git/flutter_lints-839a835b4577b79bee3803328154b54bda02d646/",
+      "rootUri": "file:///home/sumit/.pub-cache/git/flutter_lints-c8bba96e459ffb40ec4ea116b1fc6d163f438e94/",
       "packageUri": "lib/",
       "languageVersion": "3.1"
     },
@@ -153,7 +153,7 @@
     },
     {
       "name": "lints",
-      "rootUri": "file:///home/sumit/.pub-cache/hosted/pub.dev/lints-2.1.1",
+      "rootUri": "file:///home/sumit/.pub-cache/hosted/pub.dev/lints-3.0.0",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
@@ -201,9 +201,9 @@
     },
     {
       "name": "package_info_plus_platform_interface",
-      "rootUri": "file:///home/sumit/.pub-cache/git/package_info_plus_platform_interface-93b86b162bb1beb97ea7d3a78a0036ba4ff7395e/",
+      "rootUri": "file:///home/sumit/.pub-cache/git/package_info_plus_platform_interface-df6af125b1dc92b9c42495909586894cff516c44/",
       "packageUri": "lib/",
-      "languageVersion": "2.18"
+      "languageVersion": "3.1"
     },
     {
       "name": "path",
@@ -213,9 +213,9 @@
     },
     {
       "name": "plugin_platform_interface",
-      "rootUri": "file:///home/sumit/.pub-cache/git/plugin_platform_interface-1d6e1c5fae93958d50ce0595ef687d8195088d21/",
+      "rootUri": "file:///home/sumit/.pub-cache/git/plugin_platform_interface-3f77202a425698dc76188933bde3738a0df4b21e/",
       "packageUri": "lib/",
-      "languageVersion": "2.19"
+      "languageVersion": "3.1"
     },
     {
       "name": "pool",
@@ -363,7 +363,7 @@
     },
     {
       "name": "win32",
-      "rootUri": "file:///home/sumit/.pub-cache/hosted/pub.dev/win32-5.0.7",
+      "rootUri": "file:///home/sumit/.pub-cache/hosted/pub.dev/win32-5.0.9",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
@@ -380,7 +380,7 @@
       "languageVersion": "3.1"
     }
   ],
-  "generated": "2023-09-13T06:48:42.257766Z",
+  "generated": "2023-11-09T04:53:37.140228Z",
   "generator": "pub",
-  "generatorVersion": "3.1.1"
+  "generatorVersion": "3.1.5"
 }

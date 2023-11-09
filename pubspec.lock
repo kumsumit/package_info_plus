@@ -77,10 +77,10 @@ packages:
     dependency: transitive
     description:
       name: coverage
-      sha256: "2fb815080e44a09b85e0f2ca8a820b15053982b2e714b59267719e8a9ff17097"
+      sha256: "595a29b55ce82d53398e1bcc2cba525d7bd7c59faeb2d2540e9d42c390cfeeeb"
       url: "https://pub.dev"
     source: hosted
-    version: "1.6.3"
+    version: "1.6.4"
   crypto:
     dependency: transitive
     description:
@@ -123,10 +123,10 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: "839a835b4577b79bee3803328154b54bda02d646"
+      resolved-ref: c8bba96e459ffb40ec4ea116b1fc6d163f438e94
       url: "https://github.com/kumsumit/flutter_lints.git"
     source: git
-    version: "2.0.3"
+    version: "3.0.0"
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -197,10 +197,10 @@ packages:
     dependency: transitive
     description:
       name: lints
-      sha256: "0a217c6c989d21039f1498c3ed9f3ed71b354e69873f13a8dfc3c9fe76f1b452"
+      sha256: cbf8d4b858bb0134ef3ef87841abdf8d63bfc255c266b7bf6b39daa1085c4290
       url: "https://pub.dev"
     source: hosted
-    version: "2.1.1"
+    version: "3.0.0"
   logging:
     dependency: transitive
     description:
@@ -262,7 +262,7 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: "93b86b162bb1beb97ea7d3a78a0036ba4ff7395e"
+      resolved-ref: df6af125b1dc92b9c42495909586894cff516c44
       url: "https://github.com/kumsumit/package_info_plus_platform_interface.git"
     source: git
     version: "2.0.1"
@@ -279,7 +279,7 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: "1d6e1c5fae93958d50ce0595ef687d8195088d21"
+      resolved-ref: "3f77202a425698dc76188933bde3738a0df4b21e"
       url: "https://github.com/kumsumit/plugin_platform_interface.git"
     source: git
     version: "2.1.6"
@@ -476,10 +476,10 @@ packages:
     dependency: "direct main"
     description:
       name: win32
-      sha256: "9e82a402b7f3d518fb9c02d0e9ae45952df31b9bf34d77baf19da2de03fc2aaa"
+      sha256: "350a11abd2d1d97e0cc7a28a81b781c08002aa2864d9e3f192ca0ffa18b06ed3"
       url: "https://pub.dev"
     source: hosted
-    version: "5.0.7"
+    version: "5.0.9"
   yaml:
     dependency: transitive
     description:
