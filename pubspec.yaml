@@ -35,7 +35,7 @@ dependencies:
   path: ^1.8.3
   package_info_plus_platform_interface:
     git: https://github.com/kumsumit/package_info_plus_platform_interface.git
-  web: '>=0.3.0 <0.5.0'  
+  web: '>=0.5.0 <0.6.0'  
   # win32 is compatible across v4 and v5 for Win32 only (not COM)
   win32: ">=4.0.0 <6.0.0"
 
@@ -47,5 +47,5 @@ dev_dependencies:
   test: ^1.22.0
 
 environment:
-  sdk: ">=3.2.0 <4.0.0"
-  flutter: ">=3.16.0"
+  sdk: ">=3.3.0 <4.0.0"
+  flutter: ">=3.19.0"
