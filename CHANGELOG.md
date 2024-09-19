@@ -1,3 +1,49 @@
+## 8.0.2
+
+ - **CHORE**(package_info_plus): Update to package:web to ">=0.5.0 <2.0.0" ([#3102](https://github.com/fluttercommunity/plus_plugins/pull/3102)). ([05f8afb8](https://github.com/fluttercommunity/plus_plugins/commit/05f8afb8fc43bc702ab5e3e14e3cba9d79983446))
+ - **DOCS**(package_info_plus): Update plugin requirements in README ([#3163](https://github.com/fluttercommunity/plus_plugins/issues/3163)). ([6f09bb7e](https://github.com/fluttercommunity/plus_plugins/commit/6f09bb7ec4c0f88fea557a87dc0cd3aaa64ac9ee))
+
+## 8.0.1
+
+ - **FIX**(package_info_plus): Address changed fields nullability on Android 15 (API 35) ([#2975](https://github.com/fluttercommunity/plus_plugins/issues/2975)). ([dfa3bc2d](https://github.com/fluttercommunity/plus_plugins/commit/dfa3bc2de7d2a010bc81b0a7f19395b373e31cf1))
+ - **REFACTOR**(all): Remove website files, configs, mentions ([#3018](https://github.com/fluttercommunity/plus_plugins/issues/3018)). ([ecc57146](https://github.com/fluttercommunity/plus_plugins/commit/ecc57146aa8c6b1c9c332169d3cc2205bc4a700f))
+ - **FIX**(all): changed homepage url in pubspec.yaml ([#3099](https://github.com/fluttercommunity/plus_plugins/issues/3099)). ([66613656](https://github.com/fluttercommunity/plus_plugins/commit/66613656a85c176ba2ad337e4d4943d1f4171129))
+
+## 8.0.0
+
+> Note: This release has breaking changes.
+
+ - **DOCS**(package_info_plus): Add platform specific documentation ([#2845](https://github.com/fluttercommunity/plus_plugins/issues/2845)). ([ad06a236](https://github.com/fluttercommunity/plus_plugins/commit/ad06a236d7647e958f4b25cd9ee8fe68f4c4faf3))
+ - **DOCS**(package_info_plus): Improve web documentation re. CORS ([#2841](https://github.com/fluttercommunity/plus_plugins/issues/2841)). ([7d712ef8](https://github.com/fluttercommunity/plus_plugins/commit/7d712ef816808d533b2fd0b4f8c9f11ebb23ab53))
+ - **BREAKING** **FEAT**(package_info_plus): Switch to SHA-256 for `buildSignature` on Android ([#2835](https://github.com/fluttercommunity/plus_plugins/issues/2835)). ([7259af20](https://github.com/fluttercommunity/plus_plugins/commit/7259af200810bd717d95688fbcdca67a028f9cd0))
+
+## 7.0.0
+
+> Note: This release has breaking changes.
+
+ - **REFACTOR**(package_info_plus): Migrate Android example to use the new plugins declaration ([#2715](https://github.com/fluttercommunity/plus_plugins/issues/2715)). ([33681cd9](https://github.com/fluttercommunity/plus_plugins/commit/33681cd91982d4db8e6d3d0e1ccf7c604091e48f))
+ - **BREAKING** **FEAT**(package_info_plus): Support multiple version.json locations in web ([#2733](https://github.com/fluttercommunity/plus_plugins/issues/2733)). ([26047f30](https://github.com/fluttercommunity/plus_plugins/commit/26047f3062ea23f8e124f1c64e03dd8a566e9bac))
+
+## 6.0.0
+
+> Note: This release has breaking changes.
+
+In this release plugin migrated from dart:html to js_interop, meaning that it now supports WASM!
+
+Plugin now requires the following:
+- Flutter >=3.19.0
+- Dart >=3.3.0
+- compileSDK 34 for Android part
+- Java 17 for Android part
+- Gradle 8.4 for Android part
+
+ - **BREAKING** **REFACTOR**(package_info_plus): bump MACOSX_DEPLOYMENT_TARGET from 10.11 to 10.14 ([#2593](https://github.com/fluttercommunity/plus_plugins/issues/2593)). ([99c832ea](https://github.com/fluttercommunity/plus_plugins/commit/99c832ea646ae525e8af93be64fb94e09f1059f2))
+ - **BREAKING** **BUILD**(package_info_plus): Target Java 17 on Android ([#2728](https://github.com/fluttercommunity/plus_plugins/issues/2728)). ([23f2a7c2](https://github.com/fluttercommunity/plus_plugins/commit/23f2a7c2bb649e84763f0ba6489acf5d9487e185))
+ - **BREAKING** **BUILD**(package_info_plus): Update to target and compile SDK 34 ([#2707](https://github.com/fluttercommunity/plus_plugins/pull/2707)). ([df33fbd](https://github.com/fluttercommunity/plus_plugins/commit/df33fbdb4b6f03949b317c0019bc3f9098195340))
+ - **FIX**(package_info_plus): Add iOS Privacy Info ([#2584](https://github.com/fluttercommunity/plus_plugins/issues/2584)). ([895fe1a2](https://github.com/fluttercommunity/plus_plugins/commit/895fe1a2658f7f1d61b830d769e0b251e82991b4))
+ - **FEAT**(package_info_plus): Update min iOS target to 12, bump min Dart SDK to 3.3 ([#2660](https://github.com/fluttercommunity/plus_plugins/issues/2660)). ([6c0766dd](https://github.com/fluttercommunity/plus_plugins/commit/6c0766dd4f2a04f6dd3731584d6d8463db60a6d9))
+ - **FEAT**(package_info_plus): Use js_interop instead of html to support compilation to WASM ([#2625](https://github.com/fluttercommunity/plus_plugins/issues/2625)). ([c9435836](https://github.com/fluttercommunity/plus_plugins/commit/c9435836e8c7b354d5ca5383029e0172efe301d1))
+
 ## 5.0.1
 
 > Note: This release has breaking changes.
