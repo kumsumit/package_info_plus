@@ -35,8 +35,8 @@ dependencies:
   flutter_web_plugins:
     sdk: flutter
   http: ">=0.13.5 <2.0.0"
-  meta: ^1.10.0
-  path: ^1.8.3
+  meta: ^1.15.0
+  path: ^1.9.0
   package_info_plus_platform_interface:
     git: https://github.com/kumsumit/package_info_plus_platform_interface.git
   web: '>=0.5.0 <2.0.0'  
@@ -45,8 +45,7 @@ dependencies:
   clock: ^1.1.1
 
 dev_dependencies:
-  flutter_lints: 
-    git: https://github.com/kumsumit/flutter_lints.git
+  flutter_lints: ^4.0.0
   flutter_test:
     sdk: flutter
   test: ^1.22.0
