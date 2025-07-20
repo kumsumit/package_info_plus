@@ -2,7 +2,7 @@ group 'dev.fluttercommunity.plus.packageinfo'
 version '1.0-SNAPSHOT'
 
 buildscript {
-    ext.kotlin_version = '2.1.20'
+    ext.kotlin_version = '2.2.0'
     ext.kotlin_coroutines_version = '1.10.2'
 
     repositories {
@@ -11,7 +11,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:8.9.2'
+        classpath 'com.android.tools.build:gradle:8.11.1'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
     }
 }
@@ -32,12 +32,12 @@ android {
     namespace 'dev.fluttercommunity.plus.packageinfo'
 
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_21
-        targetCompatibility JavaVersion.VERSION_21
+        sourceCompatibility JavaVersion.VERSION_24
+        targetCompatibility JavaVersion.VERSION_24
     }
 
     kotlinOptions {
-        jvmTarget = 21
+        jvmTarget = 24
     }
 
     defaultConfig {
@@ -53,6 +53,6 @@ android {
         implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
         implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$kotlin_coroutines_version"
         implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$kotlin_coroutines_version"
-        implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.8.1")
+        implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.9.0")
     }
 }
