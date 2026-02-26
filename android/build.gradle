@@ -2,7 +2,7 @@ group 'dev.fluttercommunity.plus.packageinfo'
 version '1.0-SNAPSHOT'
 
 buildscript {
-    ext.kotlin_version = '2.2.0'
+    ext.kotlin_version = '2.3.10'
     ext.kotlin_coroutines_version = '1.10.2'
 
     repositories {
@@ -32,12 +32,12 @@ android {
     namespace 'dev.fluttercommunity.plus.packageinfo'
 
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_24
-        targetCompatibility JavaVersion.VERSION_24
+        sourceCompatibility JavaVersion.VERSION_21
+        targetCompatibility JavaVersion.VERSION_21
     }
 
     kotlinOptions {
-        jvmTarget = 24
+        jvmTarget = 21
     }
 
     defaultConfig {
