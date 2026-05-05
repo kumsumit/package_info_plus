@@ -48,7 +48,4 @@ android {
 
 dependencies {
         implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
-        implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$kotlin_coroutines_version"
-        implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$kotlin_coroutines_version"
-        implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.11.0")
     }

@@ -1,3 +1,41 @@
+## 10.1.0
+
+ - **FEAT**(package_info_plus): Lower requirements to Dart 3.10 and Flutter 3.38.1 ([#3804](https://github.com/fluttercommunity/plus_plugins/issues/3804)). ([bed26b5c](https://github.com/fluttercommunity/plus_plugins/commit/bed26b5cf14bded2d7000f5cca3dffdeb157686c))
+
+## 10.0.0
+
+> Note: This release has breaking changes.
+>
+> Due to an update of win32 to 6.0.0, package requirements were also changed to match this update:
+> - Minimum Flutter version is 3.41.6
+> - Minimum Dart version is 3.11.0
+> - Min iOS is 13.0
+> - Min macOS is 10.15
+>
+> Since this release was already breaking, the rest of the dependencies were also updated to the latest possible versions.
+
+ - **BREAKING** **FEAT**(package_info_plus): Bump win32 from 5.15.0 to 6.0.0 ([#3760](https://github.com/fluttercommunity/plus_plugins/issues/3760)). ([f0da4b91](https://github.com/fluttercommunity/plus_plugins/commit/f0da4b919cec0aaebbdc8daf8c4475e6bc0ae2ec))
+
+## 9.0.1
+
+ - **DOCS**(package_info_plus): add installerStore values documentation ([#3721](https://github.com/fluttercommunity/plus_plugins/issues/3721)). ([0534cd2d](https://github.com/fluttercommunity/plus_plugins/commit/0534cd2d1ea55d68c4452e8d5a0ee211b0c641ac))
+
+## 9.0.0
+
+> Note: This release has breaking changes.
+>
+> On Android plugin now requires the following:
+> - Android Gradle Plugin >=8.12.1
+> - Gradle wrapper >=8.13
+> - Kotlin 2.2.0
+
+ - **DOCS**(all): replace MacOS by macOS in package READMEs ([#3658](https://github.com/fluttercommunity/plus_plugins/issues/3658)). ([72b6234c](https://github.com/fluttercommunity/plus_plugins/commit/72b6234c25315c30d8efc9f15a9258b0bb7273a8))
+ - **BREAKING** **FEAT**(package_info_plus): Change Android compile SDK, update Android build config ([#3674](https://github.com/fluttercommunity/plus_plugins/issues/3674)). ([78c2b742](https://github.com/fluttercommunity/plus_plugins/commit/78c2b7420bcc943b5f46a22285e750a0dc58e5bb))
+
+## 8.3.1
+
+ - **FIX**(package_info_plus): incorrect install time on macOS when app sandbox disabled ([#3638](https://github.com/fluttercommunity/plus_plugins/issues/3638)). ([2cf9297b](https://github.com/fluttercommunity/plus_plugins/commit/2cf9297b4e3ce5cc71d22539ca7d0dfc82ac819b))
+
 ## 8.3.0
 
  - **FEAT**(package_info_plus): add update time ([#3466](https://github.com/fluttercommunity/plus_plugins/issues/3466)). ([c0ab9214](https://github.com/fluttercommunity/plus_plugins/commit/c0ab9214479653ce976e427dc0fa5e58b71e7f66))
