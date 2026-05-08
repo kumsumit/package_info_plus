@@ -1,30 +1,26 @@
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
+
 plugins {
     id("com.android.library")
     id("org.jetbrains.kotlin.android") version "2.3.21"
 }
-group = 'dev.fluttercommunity.plus.packageinfo'
-version = '1.0-SNAPSHOT'
+
+group = "dev.fluttercommunity.plus.packageinfo"
+version = "1.0-SNAPSHOT"
 
 repositories {
-        google()
-        mavenCentral()
-    }
+    google()
+    mavenCentral()
+}
 
 android {
     compileSdk = 37
 
-    namespace = 'dev.fluttercommunity.plus.packageinfo'
+    namespace = "dev.fluttercommunity.plus.packageinfo"
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_21
         targetCompatibility = JavaVersion.VERSION_21
-    }
-
-    kotlin {
-        compilerOptions {
-            jvmTarget.set(JvmTarget.JVM_21)
-        }
     }
 
     defaultConfig {
@@ -34,11 +30,21 @@ android {
     testOptions {
         unitTests {
             isIncludeAndroidResources = true
+
             all {
                 it.useJUnitPlatform()
+
                 it.outputs.upToDateWhen { false }
+
                 it.testLogging {
-                    events("passed", "skipped", "failed", "standardOut", "standardError")
+                    events(
+                        "passed",
+                        "skipped",
+                        "failed",
+                        "standardOut",
+                        "standardError"
+                    )
+
                     showStandardStreams = true
                 }
             }
@@ -46,6 +52,12 @@ android {
     }
 }
 
-dependencies {
-        implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+kotlin {
+    compilerOptions {
+        jvmTarget.set(JvmTarget.JVM_21)
     }
+}
+
+dependencies {
+    implementation(kotlin("stdlib"))
+}
