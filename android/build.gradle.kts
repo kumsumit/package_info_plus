@@ -49,12 +49,6 @@ android {
     }
 }
 
-kotlin {
-    compilerOptions {
-        jvmTarget = org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_21
-    }
-}
 
 dependencies {
-    implementation("org.jetbrains.kotlin:kotlin-stdlib:2.3.21")
 }
